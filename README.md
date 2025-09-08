@@ -45,6 +45,19 @@ Installs the **Azure Kinect SDK**:
 - Adds the user to the appropriate permission group
 - Verifies connection with `k4aviewer` and `lsusb`
 
+#### `install_rcs.sh`
+Make the script executable: Navigate to your home directory (if you're not already there) using cd ~ and then use the chmod command to give the script execute permissions.
+```
+Bash
+
+chmod +x install_rcs.sh
+```
+Run the script: Execute the script by typing ./ followed by the script's name. You will need to enter your user password when prompted for the sudo apt install command.
+
+```
+Bash
+./install_rcs.sh
+```
 ---
 
 ##  About Azure Kinect DK
